@@ -19,7 +19,7 @@ public class BallController : MonoBehaviour
 	private float shootingAngel;
 	private float distanceToBall;
 
-	private float ballForce = 400;
+	private float ballForce = 300;
 	private float maxDistance = 3;
 
 	public GameObject editPlayButton;
@@ -44,7 +44,7 @@ public class BallController : MonoBehaviour
 			Time.timeScale = 1f;
 			ballClicked = false;
 			ballShot = true;
-			rb.gravityScale = 1;
+			rb.gravityScale = 1f;
 			rb.AddForce (transform.right * ballForce * distanceToBall);
 			distanceToBall = 0;
 		}

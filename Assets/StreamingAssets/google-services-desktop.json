@@ -1,42 +1,37 @@
 {
-  "project_info": {
-    "project_number": "416087509738",
-    "firebase_url": "https://statuevandalism.firebaseio.com",
-    "project_id": "statuevandalism",
-    "storage_bucket": "statuevandalism.appspot.com"
-  },
   "client": [
     {
+      "services": {
+        "appinvite_service": {
+          "status": 0
+        }, 
+        "analytics_service": {
+          "status": 0
+        }
+      }, 
+      "oauth_client": [
+        {
+          "client_id": "416087509738-04be849u825kjjo6ndfttnog6tbr35u5.apps.googleusercontent.com"
+        }
+      ], 
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDP-gFROOL-L0ibmZ_PwnRaq7vFYurgQs"
+        }
+      ], 
       "client_info": {
-        "mobilesdk_app_id": "1:416087509738:android:00da024235213d33",
+        "mobilesdk_app_id": "1:416087509738:ios:00da024235213d33", 
         "android_client_info": {
           "package_name": "ch.ew.statuevandalism"
         }
-      },
-      "oauth_client": [
-        {
-          "client_id": "416087509738-40lbah6cuh6cgi9r5h5sc4nj8eoucqe6.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyBB5oEubkT567jQO3u2F6HbX02a3w_q8vY"
-        }
-      ],
-      "services": {
-        "analytics_service": {
-          "status": 1
-        },
-        "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
-        },
-        "ads_service": {
-          "status": 2
-        }
       }
     }
-  ],
-  "configuration_version": "1"
+  ], 
+  "configuration_version": "1", 
+  "project_info": {
+    "storage_bucket": "statuevandalism.appspot.com", 
+    "project_id": "statuevandalism", 
+    "firebase_url": "https://statuevandalism.firebaseio.com", 
+    "project_number": "416087509738"
+  }
 }

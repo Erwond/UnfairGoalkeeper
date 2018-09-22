@@ -63,6 +63,7 @@ public class ObjectPlacement : MonoBehaviour
 
 				if (!rayHit.collider && ((Physics2D.Raycast (transform.position, Vector2.down, allowedHeight, groundLayer) && transform.position.x > minXObject.position.x + 1) || airPlacementAllowed)) {
 					Instantiate (defencePrefabs [selectedPrefab], transform.position, Quaternion.identity);
+					Debug.Log("Instant: " + transform.position);
 					objectNumber++;
 					AddObjectToDatabase ((double)transform.position.x, (double)transform.position.y, (double)selectedPrefab, objectNumber);
 				}
